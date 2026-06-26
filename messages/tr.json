@@ -16,6 +16,16 @@
     "whatsapp": "WhatsApp'tan Yazın",
     "langLabel": "Dil seçimi"
   },
+  "Whatsapp": {
+    "title": "TT Design",
+    "subtitle": "Genellikle birkaç dakika içinde yanıt veriyoruz",
+    "greeting": "Merhaba! 👋\nProjeniz hakkında size nasıl yardımcı olabiliriz?",
+    "placeholder": "Mesajınızı yazın…",
+    "send": "WhatsApp'ta Gönder",
+    "open": "WhatsApp sohbetini aç",
+    "close": "Kapat",
+    "online": "Çevrimiçi"
+  },
   "Hero": {
     "eyebrow": "TT DESIGN — OTEL, VİLLA, İŞ MERKEZİ & KONUT RENOVASYONU",
     "metaLabel": "MURATPAŞA · ANTALYA · TÜRKİYE",

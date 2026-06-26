@@ -16,6 +16,16 @@
     "whatsapp": "Message on WhatsApp",
     "langLabel": "Language switch"
   },
+  "Whatsapp": {
+    "title": "TT Design",
+    "subtitle": "We usually reply within minutes",
+    "greeting": "Hi! 👋\nHow can we help with your project?",
+    "placeholder": "Type your message…",
+    "send": "Send on WhatsApp",
+    "open": "Open WhatsApp chat",
+    "close": "Close",
+    "online": "Online"
+  },
   "Hero": {
     "eyebrow": "TT DESIGN — HOTEL, VILLA, BUSINESS CENTER & RESIDENTIAL RENOVATION",
     "metaLabel": "MURATPAŞA · ANTALYA · TÜRKİYE",

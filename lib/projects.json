@@ -384,5 +384,111 @@
         "h": 2160
       }
     ]
+  },
+  {
+    "slug": "konut",
+    "name": "Konut Projesi",
+    "category": "residence",
+    "cover": "/projects/konut/01.png",
+    "images": [
+      {
+        "src": "/projects/konut/01.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/02.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/03.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/04.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/05.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/06.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/07.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/08.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/09.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/10.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/11.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/12.png",
+        "w": 768,
+        "h": 1024
+      },
+      {
+        "src": "/projects/konut/13.png",
+        "w": 768,
+        "h": 1024
+      }
+    ]
+  },
+  {
+    "slug": "villa",
+    "name": "Villa Projesi",
+    "category": "villa",
+    "cover": "/projects/villa/01.jpg",
+    "images": [
+      {
+        "src": "/projects/villa/01.jpg",
+        "w": 1290,
+        "h": 1237
+      },
+      {
+        "src": "/projects/villa/02.jpg",
+        "w": 1290,
+        "h": 1254
+      },
+      {
+        "src": "/projects/villa/03.jpg",
+        "w": 1290,
+        "h": 1051
+      },
+      {
+        "src": "/projects/villa/04.jpg",
+        "w": 1290,
+        "h": 1219
+      },
+      {
+        "src": "/projects/villa/05.jpg",
+        "w": 1290,
+        "h": 1242
+      }
+    ]
   }
 ]

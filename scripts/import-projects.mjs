@@ -16,6 +16,8 @@ const MAP = [
   { dir: 'Gebze Senamed İs merkezi', slug: 'gebze-senamed', name: 'Gebze Senamed İş Merkezi', category: 'business' },
   { dir: 'Ariel Medical Kongo', slug: 'ariel-medical', name: 'Ariel Medical — Kongo', category: 'business' },
   { dir: 'Horizon', slug: 'horizon', name: 'Horizon Konut', category: 'residence' },
+  { dir: 'konut', slug: 'konut', name: 'Konut Projesi', category: 'residence' },
+  { dir: 'villa', slug: 'villa', name: 'Villa Projesi', category: 'villa' },
 ];
 
 async function walk(dir) {
