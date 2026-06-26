@@ -1,0 +1,301 @@
+{
+  "Meta": {
+    "title": "TT Design | Hotel, Villa, Business Center & Residential Renovation Contractor — Antalya",
+    "description": "TT Aşkıran (TT Design) is a Muratpaşa, Antalya based B2B renovation and interior fit-out contractor specializing in 5-star hotels, villas, business centers and residences. Art in every detail, TT Design in every line.",
+    "ogAlt": "TT Design — Antalya renovation and interior fit-out studio"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "marketing": "TT Marketing",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "navLabel": "Main navigation",
+    "whatsapp": "Message on WhatsApp",
+    "langLabel": "Language switch"
+  },
+  "Hero": {
+    "eyebrow": "TT DESIGN — HOTEL, VILLA, BUSINESS CENTER & RESIDENTIAL RENOVATION",
+    "metaLabel": "MURATPAŞA · ANTALYA · TÜRKİYE",
+    "scroll": "SCROLL",
+    "exploreCta": "Explore the Work",
+    "whatsappCta": "Message on WhatsApp",
+    "prev": "Previous category",
+    "next": "Next category",
+    "indexLabel": "PROJECT CATEGORY"
+  },
+  "Categories": {
+    "hotel": {
+      "key": "hotel",
+      "rail": "HOTEL",
+      "name": "Hotel Renovation",
+      "headline": "HOTEL RENOVATION",
+      "tagline": "From rooms to lobby, kitchen to back-of-house — a 5-star refit that elevates the guest experience.",
+      "description": "Room and suite refurbishment, lobby and reception, F&B and back-of-house (BOH) — full renovation phased so your hotel keeps operating."
+    },
+    "villa": {
+      "key": "villa",
+      "rail": "VILLA",
+      "name": "Villa Renovation",
+      "headline": "VILLA RENOVATION",
+      "tagline": "Privacy, light and material — craftsmanship that turns a home into a work of art.",
+      "description": "Turnkey interior fit-out for private villas and summer homes; bespoke spaces in natural stone, timber and custom-made furniture."
+    },
+    "business": {
+      "key": "business",
+      "rail": "BUSINESS CENTER",
+      "name": "Business Center Renovation",
+      "headline": "BUSINESS CENTER RENOVATION",
+      "tagline": "Efficient, prestigious workspaces that build your corporate identity into the space itself.",
+      "description": "Functional renovation for offices, plazas and business centers — on-brand, with optimized acoustics and lighting."
+    },
+    "residence": {
+      "key": "residence",
+      "rail": "RESIDENCE",
+      "name": "Residential Renovation",
+      "headline": "RESIDENTIAL RENOVATION",
+      "tagline": "From apartment to penthouse — fine workmanship where daily life meets aesthetics.",
+      "description": "Kitchen, bathroom and living-space renewal for apartments and residences; clean workmanship true to your budget and timeline."
+    }
+  },
+  "TrustMetrics": {
+    "watermark": "TRUST",
+    "eyebrow": "TRUST, BUILT OVER YEARS",
+    "title": "A craft record, in numbers",
+    "yearsLabel": "YEARS IN THE INDUSTRY",
+    "yearsValue": 12,
+    "stats": [
+      { "value": "120+", "label": "Completed Projects" },
+      { "value": "85,000+", "label": "m² Renovated" }
+    ],
+    "note": "Trust earned across hotel, villa, business-center and residential projects in and around Antalya."
+  },
+  "Services": {
+    "watermark": "SERVICES",
+    "eyebrow": "OUR SERVICES",
+    "title": "Four disciplines, one standard",
+    "intro": "Each category demands its own discipline; we apply the same craftsmanship standard to all four.",
+    "explore": "Explore",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "Gallery": {
+    "watermark": "GALLERY",
+    "eyebrow": "PROJECT GALLERY",
+    "metaSuffix": "Project Gallery",
+    "metaDescription": "Frames from our {category} renovation and interior projects. TT Design — Antalya.",
+    "breadcrumbHome": "Home",
+    "breadcrumbProjects": "Projects",
+    "projectLabel": "PROJECT",
+    "imagesWord": "images",
+    "selectionNote": "A selection from completed and ongoing work.",
+    "otherCategories": "Other Categories",
+    "view": "Zoom",
+    "close": "Close",
+    "prevImage": "Previous image",
+    "nextImage": "Next image",
+    "ctaEyebrow": "FOR YOUR PROJECT",
+    "ctaTitle": "Have a project in this category?",
+    "ctaBody": "Reach out for a site visit and a quote — we usually reply the same day.",
+    "ctaButton": "Get a Quote",
+    "whatsapp": "Message on WhatsApp"
+  },
+  "Featured": {
+    "watermark": "PROJECTS",
+    "eyebrow": "PROJECTS",
+    "title": "Our completed and ongoing work",
+    "intro": "From hotels to business centers, wellness to residences — a selection of projects we've delivered. Open a category to view all the visuals.",
+    "view": "View Project",
+    "imagesWord": "images"
+  },
+  "Marquee": {
+    "items": [
+      "HOTEL RENOVATION",
+      "VILLA",
+      "BUSINESS CENTER",
+      "RESIDENCE",
+      "INTERIOR ARCHITECTURE",
+      "TURNKEY",
+      "CRAFTSMANSHIP",
+      "5-STAR REFIT"
+    ]
+  },
+  "Capabilities": {
+    "watermark": "SCOPE",
+    "eyebrow": "END-TO-END SERVICE",
+    "title": "From shell to final décor, under one roof",
+    "intro": "From demolition to handover we manage every line item with our own team — no coordination headaches, a single point of contact. Everything below, on one contract.",
+    "featuredLabel": "FULL RENOVATION",
+    "items": [
+      "Rooms & Suites",
+      "Lobby & Reception",
+      "Food & Beverage (F&B)",
+      "Back-of-House (BOH)",
+      "Wet Areas & Baths",
+      "Lighting & Electrical",
+      "Bespoke Furniture & Joinery",
+      "Facade & Exterior"
+    ]
+  },
+  "Process": {
+    "watermark": "PROCESS",
+    "eyebrow": "HOW WE WORK",
+    "title": "From discovery to handover, a measurable method",
+    "steps": [
+      {
+        "no": "01",
+        "title": "Discovery & Analysis",
+        "body": "We survey the space on site, clarify needs, regulations and budget, and lay out a realistic road map."
+      },
+      {
+        "no": "02",
+        "title": "Design & Material Selection",
+        "body": "We define the concept design, 3D visualization and material palette together — every detail goes through your approval."
+      },
+      {
+        "no": "03",
+        "title": "Execution & Craftsmanship",
+        "body": "Our own craftsmen execute in phases with transparent reporting; your business stays open wherever possible."
+      },
+      {
+        "no": "04",
+        "title": "Handover & Satisfaction",
+        "body": "Detailed snag list, complete handover and post-delivery support — our word holds to the very last screw."
+      }
+    ]
+  },
+  "BeforeAfter": {
+    "watermark": "DESIGN",
+    "eyebrow": "FLAGSHIP PROJECT — ST. REGIS",
+    "title": "St. Regis Suite: two design directions",
+    "beforeLabel": "DESIGN A",
+    "afterLabel": "DESIGN B",
+    "dragHint": "Drag to compare",
+    "caption": {
+      "project": "St. Regis — Suite",
+      "location": "Luxury hotel suite",
+      "scope": "Two alternative interior design directions for the same suite — drag to compare."
+    }
+  },
+  "Philosophy": {
+    "watermark": "PHILOSOPHY",
+    "eyebrow": "ABOUT US",
+    "quote": "Art in Every Detail,\nTT Design in Every Line.",
+    "body": "At TT Aşkıran we see renovation not as a construction job but as a craft. We work with our partners on a transparent budget, a clear timeline and honest communication. We deliver our projects on time and own them down to the final detail — because trust is built just as much as workmanship is.",
+    "signature": "The TT Design Team"
+  },
+  "Clients": {
+    "watermark": "PARTNERS",
+    "eyebrow": "OUR PARTNERS",
+    "title": "Brands we work with",
+    "note": "Logos will be updated with our real partners as confirmed by TT Design."
+  },
+  "FAQ": {
+    "watermark": "QUESTIONS",
+    "eyebrow": "FREQUENTLY ASKED QUESTIONS",
+    "title": "What to know before you start a renovation",
+    "items": [
+      {
+        "q": "Which regulations do you observe for hotel and venue lighting?",
+        "a": "In lighting design we account for both current regulations (emergency lighting, wayfinding, escape-route lighting and energy efficiency) and the light temperature and lumen values that suit the atmosphere of the space. For hotel projects we set distinct scenes for lobby, rooms and F&B areas and integrate them with control systems."
+      },
+      {
+        "q": "How do you decide on color selection?",
+        "a": "Color is not only aesthetics — it is psychology. Depending on a space's use we propose palettes that relax, stimulate appetite or sharpen focus; we decide by weighing your brand identity, natural light and material textures together. Every palette is presented for your approval with samples and renders."
+      },
+      {
+        "q": "How is the decoration and renovation budget determined?",
+        "a": "We build the budget line by line and transparently during the discovery phase. You see material alternatives (entry, mid and premium tiers), labor and schedule items separately, and we offer a scalable plan based on your priorities. We proceed with a clear, pre-agreed budget — never surprise costs."
+      },
+      {
+        "q": "Can you renovate while my business stays open?",
+        "a": "Yes. Especially in hotels and business centers we set up a phased work plan; we move noisy work to low-occupancy hours, protect the guest/staff experience with dust and safety barriers, and keep the operation open as much as possible."
+      },
+      {
+        "q": "How long does delivery take?",
+        "a": "Timelines vary with the scale and scope of the space; however, we commit to a clear schedule at the end of discovery and report progress phase by phase. On-time delivery is central to how we work."
+      }
+    ]
+  },
+  "Marketing": {
+    "eyebrow": "OUR STORE",
+    "title": "TT Marketing",
+    "body": "Antalya's leading barcode and thermal-label supplier. Eco and laminated thermal labels, barcode rolls and labelling solutions — same-day shipping, 5,000+ happy customers.",
+    "cta": "Go to the Store"
+  },
+  "Contact": {
+    "watermark": "CONTACT",
+    "eyebrow": "CONTACT",
+    "title": "Let's talk about your project",
+    "intro": "Reach out for a site visit or a quote. We usually reply the same day.",
+    "phoneLabel": "Phone",
+    "phone": "+90 530 384 44 82",
+    "addressLabel": "Address",
+    "address": "Varlık Mh. Hızır Reis Cad. No:29/3 Muratpaşa / ANTALYA",
+    "hoursLabel": "Working Hours",
+    "hours": "Monday – Saturday, 09:00 – 18:00",
+    "emailLabel": "Email",
+    "email": "info@ttaskiran.com",
+    "mapAlt": "TT Design office location — Muratpaşa, Antalya",
+    "mapCta": "Open in Maps",
+    "whatsappCta": "Message on WhatsApp",
+    "formCta": "Open the Quote Form"
+  },
+  "ContactPage": {
+    "metaTitle": "Contact",
+    "metaDescription": "Get in touch with TT Design. For hotel, villa, business-center and residential renovation — book a site visit, request a quote or ask questions by phone, WhatsApp, email or form.",
+    "breadcrumb": "Contact",
+    "watermark": "CONTACT",
+    "eyebrow": "CONTACT",
+    "title": "Let's plan your project together",
+    "intro": "Fill in the form for a site visit, a quote or any questions and we'll reply the same day. You can also reach us directly by phone, WhatsApp or email.",
+    "formTitle": "Quote / Site-Visit Request",
+    "fields": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name and surname",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "phone": "Phone",
+      "phonePlaceholder": "5__ ___ __ __",
+      "countrySearch": "Search country…",
+      "category": "Project Type",
+      "categoryPlaceholder": "Select",
+      "message": "Your Message",
+      "messagePlaceholder": "Briefly describe your project (space, approx. m², target date)…",
+      "optional": "optional"
+    },
+    "submit": "Send via Email",
+    "submitMailto": "Write to info@ttaskiran.com",
+    "successTitle": "Your email app has opened",
+    "successBody": "Your message is ready — just confirm 'Send' in your email app. If it didn't open, write to us directly at info@ttaskiran.com.",
+    "successAgain": "New message",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "message": "Please write a short message."
+    },
+    "privacy": "Your details are used only to get back to you and are never shared with third parties.",
+    "directTitle": "Reach us directly",
+    "mailSubject": "TT Design — Quote / Site-Visit Request"
+  },
+  "Footer": {
+    "wordmark": "TT DESIGN",
+    "tagline": "Art in Every Detail, TT Design in Every Line.",
+    "columns": {
+      "navTitle": "Menu",
+      "servicesTitle": "Services",
+      "contactTitle": "Contact"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "rights": "All rights reserved.",
+    "company": "TTaşkıran İnşaat & Dekorasyon"
+  },
+  "SideRail": {
+    "brand": "TT DESIGN — RENOVATION STUDIO"
+  }
+}

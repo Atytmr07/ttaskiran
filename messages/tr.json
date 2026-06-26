@@ -1,0 +1,301 @@
+{
+  "Meta": {
+    "title": "TT Design | Otel, Villa, İş Merkezi & Konut Renovasyon Müteahhidi — Antalya",
+    "description": "TT Aşkıran (TT Design), Antalya Muratpaşa merkezli; 5 yıldızlı otel, villa, iş merkezi ve konut renovasyonunda uzman B2B yenileme ve iç mekan tadilat müteahhidi. Her detayda sanat, her çizgide TT Design.",
+    "ogAlt": "TT Design — Antalya renovasyon ve iç mekan tadilat atölyesi"
+  },
+  "Nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "contact": "İletişim",
+    "marketing": "TT Marketing",
+    "menuOpen": "Menüyü aç",
+    "menuClose": "Menüyü kapat",
+    "navLabel": "Ana navigasyon",
+    "whatsapp": "WhatsApp'tan Yazın",
+    "langLabel": "Dil seçimi"
+  },
+  "Hero": {
+    "eyebrow": "TT DESIGN — OTEL, VİLLA, İŞ MERKEZİ & KONUT RENOVASYONU",
+    "metaLabel": "MURATPAŞA · ANTALYA · TÜRKİYE",
+    "scroll": "KAYDIR",
+    "exploreCta": "Projeyi İncele",
+    "whatsappCta": "WhatsApp'tan Yazın",
+    "prev": "Önceki kategori",
+    "next": "Sonraki kategori",
+    "indexLabel": "PROJE KATEGORİSİ"
+  },
+  "Categories": {
+    "hotel": {
+      "key": "hotel",
+      "rail": "OTEL",
+      "name": "Otel Renovasyonu",
+      "headline": "OTEL RENOVASYONU",
+      "tagline": "Odadan lobiye, mutfaktan kulise — misafir deneyimini yükselten 5 yıldızlı yenileme.",
+      "description": "Oda ve süit yenileme, lobi ve resepsiyon, yeme-içme alanları ve arka ofis (BOH) dahil; otel işletmeniz kapalı kalmadan, faz faz planlanan komple renovasyon."
+    },
+    "villa": {
+      "key": "villa",
+      "rail": "VİLLA",
+      "name": "Villa Renovasyonu",
+      "headline": "VİLLA RENOVASYONU",
+      "tagline": "Mahremiyet, ışık ve malzeme — yaşam alanınızı bir esere dönüştüren zanaatkârlık.",
+      "description": "Özel villa ve yazlıklarda anahtar teslim iç mekan tadilatı; doğal taş, ahşap ve özel üretim mobilyayla kişiye özel mekânlar."
+    },
+    "business": {
+      "key": "business",
+      "rail": "İŞ MERKEZİ",
+      "name": "İş Merkezi Renovasyonu",
+      "headline": "İŞ MERKEZİ RENOVASYONU",
+      "tagline": "Kurumsal kimliği mekâna işleyen, verimli ve prestijli çalışma alanları.",
+      "description": "Ofis, plaza ve iş merkezlerinde marka kimliğine uygun, akustik ve aydınlatması optimize edilmiş, fonksiyonel renovasyon."
+    },
+    "residence": {
+      "key": "residence",
+      "rail": "KONUT",
+      "name": "Konut Renovasyonu",
+      "headline": "KONUT RENOVASYONU",
+      "tagline": "Daireden çatı katına — günlük yaşamı estetikle buluşturan ince işçilik.",
+      "description": "Daire ve rezidanslarda mutfak, banyo ve yaşam alanı yenileme; bütçenize ve takviminize sadık, temiz işçilik."
+    }
+  },
+  "TrustMetrics": {
+    "watermark": "GÜVEN",
+    "eyebrow": "YILLAR İÇİNDE GÜVEN",
+    "title": "Rakamlarla bir zanaat geçmişi",
+    "yearsLabel": "YILDIR SEKTÖRDE",
+    "yearsValue": 12,
+    "stats": [
+      { "value": "120+", "label": "Tamamlanan Proje" },
+      { "value": "85.000+", "label": "m² Yenilenen Alan" }
+    ],
+    "note": "Antalya ve çevresinde otel, villa, iş merkezi ve konut projeleriyle kazanılmış güven."
+  },
+  "Services": {
+    "watermark": "HİZMET",
+    "eyebrow": "HİZMETLERİMİZ",
+    "title": "Dört uzmanlık, tek standart",
+    "intro": "Her kategori kendi disiplinini ister; biz dördünde de aynı zanaatkârlık standardını uygularız.",
+    "explore": "İncele",
+    "prev": "Önceki",
+    "next": "Sonraki"
+  },
+  "Gallery": {
+    "watermark": "GALERİ",
+    "eyebrow": "PROJE GALERİSİ",
+    "metaSuffix": "Proje Galerisi",
+    "metaDescription": "{category} renovasyon ve iç mekan projelerimizden kareler. TT Design — Antalya.",
+    "breadcrumbHome": "Anasayfa",
+    "breadcrumbProjects": "Projeler",
+    "projectLabel": "PROJE",
+    "imagesWord": "görsel",
+    "selectionNote": "Tamamlanan ve devam eden çalışmalardan bir seçki.",
+    "otherCategories": "Diğer Kategoriler",
+    "view": "Büyüt",
+    "close": "Kapat",
+    "prevImage": "Önceki görsel",
+    "nextImage": "Sonraki görsel",
+    "ctaEyebrow": "PROJENİZ İÇİN",
+    "ctaTitle": "Bu kategoride bir projeniz mi var?",
+    "ctaBody": "Keşif randevusu ve teklif için bize ulaşın — genellikle aynı gün dönüş yapıyoruz.",
+    "ctaButton": "Teklif Alın",
+    "whatsapp": "WhatsApp'tan Yazın"
+  },
+  "Featured": {
+    "watermark": "PROJELER",
+    "eyebrow": "PROJELER",
+    "title": "Tamamlanan ve süren işlerimiz",
+    "intro": "Otelden iş merkezine, wellness'tan konuta — gerçekleştirdiğimiz projelerden bir seçki. Kategoriye girip tüm görselleri inceleyin.",
+    "view": "Projeyi Gör",
+    "imagesWord": "görsel"
+  },
+  "Marquee": {
+    "items": [
+      "OTEL RENOVASYONU",
+      "VİLLA",
+      "İŞ MERKEZİ",
+      "KONUT",
+      "İÇ MİMARİ",
+      "ANAHTAR TESLİM",
+      "ZANAATKÂRLIK",
+      "5 YILDIZLI YENİLEME"
+    ]
+  },
+  "Capabilities": {
+    "watermark": "KAPSAM",
+    "eyebrow": "UÇTAN UCA HİZMET",
+    "title": "Kaba inşaattan son dekora, tek elden",
+    "intro": "Yıkımdan teslime kadar her kalemi kendi ekibimizle yönetiriz — koordinasyon derdi yok, tek muhatap var. Aşağıdaki başlıkların tamamı tek sözleşmeyle.",
+    "featuredLabel": "KOMPLE RENOVASYON",
+    "items": [
+      "Oda & Süit Yenileme",
+      "Lobi & Resepsiyon",
+      "Yeme-İçme Alanları (F&B)",
+      "Back-of-House (BOH)",
+      "Islak Hacim & Banyo",
+      "Aydınlatma & Elektrik",
+      "Özel Mobilya & Ahşap",
+      "Cephe & Dış Mekan"
+    ]
+  },
+  "Process": {
+    "watermark": "SÜREÇ",
+    "eyebrow": "ÇALIŞMA SÜRECİMİZ",
+    "title": "Keşiften teslime, ölçülebilir bir yöntem",
+    "steps": [
+      {
+        "no": "01",
+        "title": "Keşif & Analiz",
+        "body": "Mekânı yerinde inceleriz; ihtiyaçları, mevzuatı ve bütçeyi netleştirerek gerçekçi bir yol haritası çıkarırız."
+      },
+      {
+        "no": "02",
+        "title": "Tasarım & Malzeme Seçimi",
+        "body": "Konsept tasarım, 3B görselleştirme ve malzeme paletini birlikte belirler; her detayı onayınızdan geçiririz."
+      },
+      {
+        "no": "03",
+        "title": "Uygulama & Zanaatkârlık",
+        "body": "Kendi ustalarımızla, faz faz ve şeffaf raporlamayla uygularız; işletmeniz mümkün olduğunca açık kalır."
+      },
+      {
+        "no": "04",
+        "title": "Teslim & Memnuniyet",
+        "body": "Detaylı kontrol listesi, eksiksiz teslim ve teslim sonrası destek — sözümüz, son vidaya kadar geçerlidir."
+      }
+    ]
+  },
+  "BeforeAfter": {
+    "watermark": "TASARIM",
+    "eyebrow": "REFERANS PROJE — ST. REGIS",
+    "title": "St. Regis Süit: iki tasarım yönü",
+    "beforeLabel": "TASARIM A",
+    "afterLabel": "TASARIM B",
+    "dragHint": "Karşılaştırmak için sürükleyin",
+    "caption": {
+      "project": "St. Regis — Süit",
+      "location": "Lüks otel süiti",
+      "scope": "Aynı süitin iki alternatif iç mekan tasarım yönü — sürükleyip karşılaştırın."
+    }
+  },
+  "Philosophy": {
+    "watermark": "FELSEFE",
+    "eyebrow": "HAKKIMIZDA",
+    "quote": "Her Detayda Sanat,\nHer Çizgide TT Design.",
+    "body": "TT Aşkıran olarak renovasyonu bir inşaat işi değil, bir zanaat olarak görüyoruz. İş ortaklarımızla şeffaf bir bütçe, net bir takvim ve dürüst bir iletişim üzerine çalışırız. Projelerimizi zamanında teslim eder, son detayına kadar sahipleniriz; çünkü güven, en az işçilik kadar inşa edilir.",
+    "signature": "TT Design Ekibi"
+  },
+  "Clients": {
+    "watermark": "İŞ ORTAKLARI",
+    "eyebrow": "İŞ ORTAKLARIMIZ",
+    "title": "Birlikte çalıştığımız markalar",
+    "note": "Logolar, TT Design tarafından onaylandıkça gerçek iş ortaklarımızla güncellenecektir."
+  },
+  "FAQ": {
+    "watermark": "SORULAR",
+    "eyebrow": "SIKÇA SORULAN SORULAR",
+    "title": "Renovasyona başlamadan önce merak edilenler",
+    "items": [
+      {
+        "q": "Otel ve mekân aydınlatmasında hangi düzenlemelere dikkat ediyorsunuz?",
+        "a": "Aydınlatma tasarımında hem yürürlükteki yönetmeliklere (acil aydınlatma, yönlendirme, kaçış yolu aydınlatması ve enerji verimliliği) hem de mekânın atmosferine uygun ışık sıcaklığı ve lümen değerlerine birlikte bakarız. Otel projelerinde lobi, oda ve yeme-içme alanları için farklı senaryolar kurgular, kontrol sistemleriyle (sahne/scene) entegre ederiz."
+      },
+      {
+        "q": "Renk seçimini neye göre yapıyorsunuz?",
+        "a": "Renk seçimi sadece estetik değil, bir psikoloji meselesidir. Mekânın kullanım amacına göre dinlendiren, iştah açan ya da konsantrasyonu artıran paletler öneririz; markanızın kimliğini, doğal ışığı ve malzeme dokularını birlikte değerlendirerek karar veririz. Her paleti numune ve görselle onayınıza sunarız."
+      },
+      {
+        "q": "Dekorasyon ve renovasyon bütçesi nasıl belirleniyor?",
+        "a": "Bütçeyi keşif aşamasında, kalem kalem ve şeffaf bir şekilde çıkarırız. Malzeme alternatifleri (giriş–orta–üst segment), işçilik ve süre kalemlerini ayrı ayrı görür; önceliklerinize göre ölçeklenebilir bir plan sunarız. Sürpriz maliyet değil, önceden konuşulmuş net bir bütçeyle ilerleriz."
+      },
+      {
+        "q": "İşletmem açıkken renovasyon yapabilir misiniz?",
+        "a": "Evet. Özellikle otel ve iş merkezlerinde faz faz çalışma planı kurarız; gürültülü işleri düşük yoğunluk saatlerine alır, toz ve güvenlik bariyerleriyle misafir/çalışan deneyimini korur, işletmeyi mümkün olduğunca açık tutarız."
+      },
+      {
+        "q": "Projeyi ne kadar sürede teslim ediyorsunuz?",
+        "a": "Süre, mekânın ölçeği ve kapsamına göre değişir; ancak takvimi keşif sonunda net olarak taahhüt eder, faz faz ilerlemeyi raporlarız. Zamanında teslim, çalışma kültürümüzün merkezindedir."
+      }
+    ]
+  },
+  "Marketing": {
+    "eyebrow": "MAĞAZAMIZ",
+    "title": "TT Marketing",
+    "body": "Antalya'nın lider barkod ve termal etiket tedarikçisi. Eko ve lamine termal etiketler, barkod ruloları ve etiketleme çözümleri — aynı gün kargo, 5.000+ mutlu müşteri.",
+    "cta": "Mağazaya Git"
+  },
+  "Contact": {
+    "watermark": "İLETİŞİM",
+    "eyebrow": "İLETİŞİM",
+    "title": "Projenizi konuşalım",
+    "intro": "Bir keşif randevusu ya da teklif için bize ulaşın. Genellikle aynı gün dönüş yapıyoruz.",
+    "phoneLabel": "Telefon",
+    "phone": "+90 530 384 44 82",
+    "addressLabel": "Adres",
+    "address": "Varlık Mh. Hızır Reis Cad. No:29/3 Muratpaşa / ANTALYA",
+    "hoursLabel": "Çalışma Saatleri",
+    "hours": "Pazartesi – Cumartesi, 09:00 – 18:00",
+    "emailLabel": "E-posta",
+    "email": "info@ttaskiran.com",
+    "mapAlt": "TT Design ofis konumu — Muratpaşa, Antalya",
+    "mapCta": "Haritada Aç",
+    "whatsappCta": "WhatsApp'tan Yazın",
+    "formCta": "Teklif Formunu Aç"
+  },
+  "ContactPage": {
+    "metaTitle": "İletişim",
+    "metaDescription": "TT Design ile iletişime geçin. Otel, villa, iş merkezi ve konut renovasyonu için keşif randevusu, teklif ve sorularınız için telefon, WhatsApp, e-posta veya form.",
+    "breadcrumb": "İletişim",
+    "watermark": "İLETİŞİM",
+    "eyebrow": "İLETİŞİM",
+    "title": "Projenizi birlikte planlayalım",
+    "intro": "Keşif randevusu, teklif ya da sorularınız için formu doldurun; size aynı gün dönelim. Dilerseniz doğrudan telefon, WhatsApp ya da e-posta ile de ulaşabilirsiniz.",
+    "formTitle": "Teklif / Keşif Talebi",
+    "fields": {
+      "name": "Ad Soyad",
+      "namePlaceholder": "Adınız ve soyadınız",
+      "email": "E-posta",
+      "emailPlaceholder": "ornek@firma.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "5__ ___ __ __",
+      "countrySearch": "Ülke ara…",
+      "category": "Proje Türü",
+      "categoryPlaceholder": "Seçiniz",
+      "message": "Mesajınız",
+      "messagePlaceholder": "Projenizin kapsamını kısaca anlatın (mekân, yaklaşık m², hedeflenen tarih)…",
+      "optional": "opsiyonel"
+    },
+    "submit": "E-posta ile Gönder",
+    "submitMailto": "info@ttaskiran.com adresine yazın",
+    "successTitle": "E-posta uygulamanız açıldı",
+    "successBody": "Mesajınız hazır — göndermek için e-posta uygulamanızdan onaylamanız yeterli. Açılmadıysa doğrudan info@ttaskiran.com adresine yazabilirsiniz.",
+    "successAgain": "Yeni mesaj",
+    "errors": {
+      "name": "Lütfen adınızı girin.",
+      "email": "Geçerli bir e-posta adresi girin.",
+      "message": "Lütfen kısa bir mesaj yazın."
+    },
+    "privacy": "Bilgileriniz yalnızca size dönüş yapmak için kullanılır, üçüncü taraflarla paylaşılmaz.",
+    "directTitle": "Doğrudan ulaşın",
+    "mailSubject": "TT Design — Teklif / Keşif Talebi"
+  },
+  "Footer": {
+    "wordmark": "TT DESIGN",
+    "tagline": "Her Detayda Sanat, Her Çizgide TT Design.",
+    "columns": {
+      "navTitle": "Menü",
+      "servicesTitle": "Hizmetler",
+      "contactTitle": "İletişim"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "rights": "Tüm hakları saklıdır.",
+    "company": "TTaşkıran İnşaat & Dekorasyon"
+  },
+  "SideRail": {
+    "brand": "TT DESIGN — RENOVASYON ATÖLYESİ"
+  }
+}

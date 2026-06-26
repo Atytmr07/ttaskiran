@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nav-height: 128px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: #ffffff;
+  color: #1e1810;
+  font-feature-settings: 'ss01', 'cv01';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* Anchor targets clear the sticky navbar */
+section[id] {
+  scroll-margin-top: calc(var(--nav-height) + 16px);
+}
+
+@layer components {
+  /* Signature 1px overlapping-frame stroke (Section 3) — warm dark on light */
+  .frame-outline {
+    border: 1px solid rgba(30, 24, 16, 0.12);
+  }
+
+  .frame-outline-strong {
+    border: 1px solid rgba(30, 24, 16, 0.24);
+  }
+
+  /* Oversized accent stat numeral with diagonal sheen — ttaskiran red */
+  .metallic-numeral {
+    background-image: linear-gradient(
+      115deg,
+      #9f1c1c 0%,
+      #cf2929 28%,
+      #e8534f 46%,
+      #ff9b96 52%,
+      #e8534f 58%,
+      #cf2929 74%,
+      #9f1c1c 100%
+    );
+    background-size: 250% 100%;
+    background-position: 0% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .metallic-numeral.sheen-on {
+    animation: numeral-sheen 2.2s cubic-bezier(0.25, 0.1, 0.25, 1) 0.2s 1
+      forwards;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .metallic-numeral.sheen-on {
+      animation: none;
+      background-position: 50% 0;
+    }
+  }
+
+  @keyframes numeral-sheen {
+    0% {
+      background-position: 0% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  /* Vertical rotated micro-type (rail brand, scroll cues, card labels) */
+  .vertical-rl {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  /* Hide scrollbars on the mobile scroll-snap filmstrip */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Glassmorphism surfaces (frosted light glass). The translucent bg alone is
+     a graceful fallback where backdrop-filter is unsupported. */
+  .glass {
+    background-color: rgba(255, 255, 255, 0.62);
+    -webkit-backdrop-filter: blur(16px) saturate(150%);
+    backdrop-filter: blur(16px) saturate(150%);
+  }
+  .glass-strong {
+    background-color: rgba(255, 255, 255, 0.88);
+    -webkit-backdrop-filter: blur(22px) saturate(160%);
+    backdrop-filter: blur(22px) saturate(160%);
+  }
+  .glass-dark {
+    background-color: rgba(20, 17, 13, 0.78);
+    -webkit-backdrop-filter: blur(14px) saturate(120%);
+    backdrop-filter: blur(14px) saturate(120%);
+  }
+
+  /* Light-sheen sweep on primary CTAs (premium hover detail) */
+  .cta-sheen {
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-sheen::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+      110deg,
+      transparent 28%,
+      rgba(255, 255, 255, 0.4) 50%,
+      transparent 72%
+    );
+    transform: translateX(-130%);
+    transition: transform 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+  .cta-sheen:hover::after {
+    transform: translateX(130%);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cta-sheen::after {
+      transition: none;
+    }
+  }
+
+  /* Agency keyword ticker — two duplicated groups, seamless loop */
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .animate-marquee {
+    animation: marquee 32s linear infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee {
+      animation: none;
+    }
+  }
+}
+
+/* Accent selection */
+::selection {
+  background: rgba(207, 41, 41, 0.18);
+  color: #1e1810;
+}
+
+/* Focus visibility for keyboard users — accent ring */
+:focus-visible {
+  outline: 2px solid #cf2929;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
