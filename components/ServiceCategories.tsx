@@ -19,6 +19,48 @@ export default function ServiceCategories() {
   const scroller = useRef<HTMLDivElement>(null);
   const cards = useRef<(HTMLElement | null)[]>([]);
   const [active, setActive] = useState(0);
+  const [dragging, setDragging] = useState(false);
+
+  // Click-and-drag horizontal scroll (mouse only — touch keeps native swipe)
+  const drag = useRef({ active: false, startX: 0, startScroll: 0, moved: false });
+
+  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (e.pointerType !== 'mouse') return;
+    const el = scroller.current;
+    if (!el) return;
+    drag.current = {
+      active: true,
+      startX: e.clientX,
+      startScroll: el.scrollLeft,
+      moved: false,
+    };
+    el.setPointerCapture?.(e.pointerId);
+    setDragging(true);
+  };
+
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!drag.current.active) return;
+    const el = scroller.current;
+    if (!el) return;
+    const dx = e.clientX - drag.current.startX;
+    if (Math.abs(dx) > 4) drag.current.moved = true;
+    el.scrollLeft = drag.current.startScroll - dx;
+  };
+
+  const endDrag = () => {
+    if (!drag.current.active) return;
+    drag.current.active = false;
+    setDragging(false);
+  };
+
+  // Swallow the click that ends a drag so "İncele" links don't fire on release
+  const onClickCapture = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (drag.current.moved) {
+      e.preventDefault();
+      e.stopPropagation();
+      drag.current.moved = false;
+    }
+  };
 
   const scrollTo = (i: number) => {
     const next = Math.max(0, Math.min(CATEGORY_KEYS.length - 1, i));
@@ -86,7 +128,16 @@ export default function ServiceCategories() {
           whileInView="show"
           viewport={VIEWPORT_ONCE}
           ref={scroller}
-          className="no-scrollbar mt-12 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4"
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={endDrag}
+          onPointerLeave={endDrag}
+          onClickCapture={onClickCapture}
+          className={`no-scrollbar mt-12 flex gap-5 overflow-x-auto pb-4 lg:cursor-grab ${
+            dragging
+              ? 'snap-none select-none lg:cursor-grabbing'
+              : 'snap-x snap-mandatory'
+          }`}
         >
           {CATEGORY_KEYS.map((key, i) => (
             <article
