@@ -25,9 +25,6 @@ export const SOCIAL = {
   },
 } as const;
 
-// TT Marketing — the company's online store (Antalya barcode & thermal labels)
-export const TT_MARKETING_URL = 'https://ttmarketing.com.tr';
-
 export function whatsappLink(message?: string) {
   const base = `https://wa.me/${WHATSAPP_NUMBER}`;
   return message ? `${base}?text=${encodeURIComponent(message)}` : base;

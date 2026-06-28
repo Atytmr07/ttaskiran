@@ -9,7 +9,6 @@
     "about": "Hakkımızda",
     "services": "Hizmetlerimiz",
     "contact": "İletişim",
-    "marketing": "TT Marketing",
     "menuOpen": "Menüyü aç",
     "menuClose": "Menüyü kapat",
     "navLabel": "Ana navigasyon",
@@ -228,12 +227,6 @@
         "a": "Süre, mekânın ölçeği ve kapsamına göre değişir; ancak takvimi keşif sonunda net olarak taahhüt eder, faz faz ilerlemeyi raporlarız. Zamanında teslim, çalışma kültürümüzün merkezindedir."
       }
     ]
-  },
-  "Marketing": {
-    "eyebrow": "MAĞAZAMIZ",
-    "title": "TT Marketing",
-    "body": "Antalya'nın lider barkod ve termal etiket tedarikçisi. Eko ve lamine termal etiketler, barkod ruloları ve etiketleme çözümleri — aynı gün kargo, 5.000+ mutlu müşteri.",
-    "cta": "Mağazaya Git"
   },
   "Contact": {
     "watermark": "İLETİŞİM",

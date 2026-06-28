@@ -3,13 +3,13 @@
 import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ChevronDown, Menu, X, ArrowUpRight } from 'lucide-react';
+import { ChevronDown, Menu, X } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import LocaleSwitcher from './LocaleSwitcher';
 import MagneticButton from './MagneticButton';
 import Logo from './Logo';
 import { WhatsAppIcon } from './Icons';
-import { whatsappLink, TT_MARKETING_URL, CATEGORY_KEYS } from '@/lib/site';
+import { whatsappLink, CATEGORY_KEYS } from '@/lib/site';
 
 // Animated left-to-right underline shared by the desktop nav links
 const UNDERLINE =
@@ -123,16 +123,6 @@ export default function Navbar() {
             {t('contact')}
           </Link>
 
-          <a
-            href={TT_MARKETING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 font-body text-sm font-medium text-ivory/80 transition-colors hover:text-brass"
-          >
-            {t('marketing')}
-            <ArrowUpRight className="h-3.5 w-3.5" />
-          </a>
-
           <LocaleSwitcher label={t('langLabel')} />
 
           <MagneticButton>
@@ -222,19 +212,6 @@ export default function Navbar() {
                   {t('contact')}
                 </Link>
               </motion.div>
-              <motion.a
-                href={TT_MARKETING_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                variants={{
-                  hidden: { opacity: 0, x: -24 },
-                  show: { opacity: 1, x: 0 },
-                }}
-                className="flex items-center gap-2 py-4 font-display text-3xl font-bold uppercase tracking-tight text-brass"
-              >
-                {t('marketing')}
-                <ArrowUpRight className="h-6 w-6" />
-              </motion.a>
             </motion.div>
 
             <div className="flex items-center justify-between gap-4 px-8 pb-10">

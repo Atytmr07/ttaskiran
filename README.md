@@ -66,4 +66,3 @@ locale switch preserves the current route.
 - Address: Varlık Mh. Hızır Reis Cad. No:29/3 Muratpaşa / ANTALYA
 - Email: info@ttaskiran.com · Hours: 09:00 – 18:00
 - Instagram `@ttaskiranltdsti` · Facebook `TTaskiran.Ltd.Sti`
-- Sister brand: https://ttmarketing.ttaskiran.com

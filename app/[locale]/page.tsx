@@ -11,17 +11,10 @@ import BeforeAfterShowcase from '@/components/BeforeAfterShowcase';
 import Philosophy from '@/components/Philosophy';
 import ClientLogos from '@/components/ClientLogos';
 import FAQ from '@/components/FAQ';
-import TTMarketingTeaser from '@/components/TTMarketingTeaser';
 import ContactCTA from '@/components/ContactCTA';
 import Footer from '@/components/Footer';
 import SectionProgress from '@/components/SectionProgress';
-import {
-  ADDRESS_LINE,
-  PHONE_DISPLAY,
-  EMAIL,
-  SOCIAL,
-  TT_MARKETING_URL,
-} from '@/lib/site';
+import { ADDRESS_LINE, PHONE_DISPLAY, EMAIL, SOCIAL } from '@/lib/site';
 
 const SITE_URL = 'https://ttaskiran.com';
 
@@ -93,7 +86,7 @@ export default async function HomePage({
       'Business center fit-out',
       'Residential renovation',
     ],
-    sameAs: [SOCIAL.instagram.url, SOCIAL.facebook.url, TT_MARKETING_URL],
+    sameAs: [SOCIAL.instagram.url, SOCIAL.facebook.url],
     fullAddress: ADDRESS_LINE,
   };
 
@@ -117,7 +110,6 @@ export default async function HomePage({
         <Philosophy />
         <ClientLogos />
         <FAQ />
-        <TTMarketingTeaser />
         <ContactCTA />
       </main>
       <Footer />

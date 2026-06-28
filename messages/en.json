@@ -9,7 +9,6 @@
     "about": "About",
     "services": "Services",
     "contact": "Contact",
-    "marketing": "TT Marketing",
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
     "navLabel": "Main navigation",
@@ -228,12 +227,6 @@
         "a": "Timelines vary with the scale and scope of the space; however, we commit to a clear schedule at the end of discovery and report progress phase by phase. On-time delivery is central to how we work."
       }
     ]
-  },
-  "Marketing": {
-    "eyebrow": "OUR STORE",
-    "title": "TT Marketing",
-    "body": "Antalya's leading barcode and thermal-label supplier. Eco and laminated thermal labels, barcode rolls and labelling solutions — same-day shipping, 5,000+ happy customers.",
-    "cta": "Go to the Store"
   },
   "Contact": {
     "watermark": "CONTACT",

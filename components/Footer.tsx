@@ -1,18 +1,11 @@
 'use client';
 
 import { useLocale, useTranslations } from 'next-intl';
-import { ArrowUpRight } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import LocaleSwitcher from './LocaleSwitcher';
 import Logo from './Logo';
 import { InstagramIcon, FacebookIcon } from './Icons';
-import {
-  SOCIAL,
-  TT_MARKETING_URL,
-  CATEGORY_KEYS,
-  PHONE_HREF,
-  EMAIL,
-} from '@/lib/site';
+import { SOCIAL, CATEGORY_KEYS, PHONE_HREF, EMAIL } from '@/lib/site';
 
 export default function Footer() {
   const t = useTranslations('Footer');
@@ -54,17 +47,6 @@ export default function Footer() {
               <li><a href={sec('hakkimizda')} className="hover:text-brass">{tn('about')}</a></li>
               <li><a href={sec('hizmetlerimiz')} className="hover:text-brass">{tn('services')}</a></li>
               <li><Link href="/iletisim" className="hover:text-brass">{tn('contact')}</Link></li>
-              <li>
-                <a
-                  href={TT_MARKETING_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 hover:text-brass"
-                >
-                  {tn('marketing')}
-                  <ArrowUpRight className="h-3 w-3" />
-                </a>
-              </li>
             </ul>
           </nav>
 
