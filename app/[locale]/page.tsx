@@ -49,7 +49,7 @@ export default async function HomePage({
     '@context': 'https://schema.org',
     '@type': ['GeneralContractor', 'LocalBusiness'],
     '@id': `${SITE_URL}/#organization`,
-    name: 'TT Design — TT Aşkıran',
+    name: 'TT Design — T Taşkıran',
     description: tCon('intro'),
     url: `${SITE_URL}/${locale}`,
     telephone: PHONE_DISPLAY,

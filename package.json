@@ -2,7 +2,7 @@
   "name": "ttaskiran",
   "version": "1.0.0",
   "private": true,
-  "description": "TT Design (TT Aşkıran) — Premium Hotel, Villa, Business Center & Residential Renovation Contractor, Antalya",
+  "description": "TT Design (T Taşkıran) — Premium Hotel, Villa, Business Center & Residential Renovation Contractor, Antalya",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

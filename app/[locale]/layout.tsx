@@ -49,7 +49,7 @@ export async function generateMetadata({
     },
     description: t('description'),
     applicationName: 'TT Design',
-    authors: [{ name: 'TT Aşkıran' }],
+    authors: [{ name: 'T Taşkıran' }],
     keywords:
       locale === 'tr'
         ? [

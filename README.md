@@ -1,6 +1,6 @@
 # TT Design — ttaskiran.com
 
-A 100x rebuild of the TT Aşkıran (TT Design) website: a B2B proof-of-craft
+A 100x rebuild of the T Taşkıran (TT Design) website: a B2B proof-of-craft
 instrument for a premium hotel, villa, business-center and residential
 renovation contractor in Muratpaşa, Antalya.
 
