@@ -93,8 +93,8 @@ export default function Hero() {
             </motion.div>
           </AnimatePresence>
 
-          {/* legibility gradient for the overlaid text */}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-graphite via-graphite/55 to-graphite/10" />
+          {/* legibility gradient — bottom-anchored & light so the image stays forward */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-graphite via-graphite/40 to-transparent" />
           <FrameCorners size="h-3.5 w-3.5" />
 
           {/* rotated category rail */}
@@ -112,13 +112,13 @@ export default function Hero() {
                 exit={{ opacity: 0, y: reduce ? 0 : -12 }}
                 transition={{ duration: 0.45, ease: DOSSIER_EASE }}
               >
-                <span className="font-body text-[11px] font-semibold uppercase tracking-widest2 text-brass">
+                <span className="font-body text-[10px] font-semibold uppercase tracking-widest2 text-brass">
                   {t('indexLabel')} · {pad(index)}
                 </span>
-                <h1 className="mt-2 break-words font-display text-[1.9rem] font-black uppercase leading-[0.97] tracking-tight text-ivory">
+                <h1 className="mt-1.5 break-words font-display text-[1.55rem] font-black uppercase leading-[1.0] tracking-tight text-ivory">
                   {tc(`${key}.headline`)}
                 </h1>
-                <p className="mt-2.5 line-clamp-2 max-w-md font-body text-[13px] leading-relaxed text-ivory/85">
+                <p className="mt-2 line-clamp-2 max-w-md font-body text-[12px] leading-relaxed text-ivory/80">
                   {tc(`${key}.tagline`)}
                 </p>
               </motion.div>
