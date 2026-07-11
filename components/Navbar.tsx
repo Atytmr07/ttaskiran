@@ -58,7 +58,7 @@ export default function Navbar() {
       }`}
       style={{ height: 'var(--nav-height)' }}
     >
-      <div className="mx-auto flex h-full max-w-[1600px] items-center justify-between px-6 sm:px-10 lg:px-16">
+      <div className="mx-auto flex h-full max-w-[1600px] items-center justify-between px-6 pt-3 sm:px-10 lg:px-16 lg:pt-5">
         {/* Wordmark */}
         <Link href="/" aria-label="TT Design" className="flex items-center">
           <Logo priority className="h-14 w-auto lg:h-[6rem]" />

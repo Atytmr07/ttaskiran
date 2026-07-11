@@ -462,17 +462,12 @@
     "slug": "villa",
     "name": "Villa Projesi",
     "category": "villa",
-    "cover": "/projects/villa/01.jpg",
+    "cover": "/projects/villa/05.jpg",
     "images": [
       {
-        "src": "/projects/villa/01.jpg",
+        "src": "/projects/villa/05.jpg",
         "w": 1290,
-        "h": 1237
-      },
-      {
-        "src": "/projects/villa/02.jpg",
-        "w": 1290,
-        "h": 1254
+        "h": 1242
       },
       {
         "src": "/projects/villa/03.jpg",
@@ -485,9 +480,14 @@
         "h": 1219
       },
       {
-        "src": "/projects/villa/05.jpg",
+        "src": "/projects/villa/01.jpg",
         "w": 1290,
-        "h": 1242
+        "h": 1237
+      },
+      {
+        "src": "/projects/villa/02.jpg",
+        "w": 1290,
+        "h": 1254
       }
     ]
   }
