@@ -55,7 +55,7 @@ export default function Hero() {
       {/* faint section watermark */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -right-10 top-24 select-none font-display text-[12rem] font-black uppercase leading-none tracking-tighter text-ivory/[0.04] lg:text-[20rem]"
+        className="pointer-events-none absolute right-0 top-28 max-w-full select-none whitespace-nowrap font-display text-[5.5rem] font-black uppercase leading-none tracking-tighter text-ivory/[0.04] sm:-right-6 sm:text-[12rem] lg:text-[20rem]"
       >
         {tc(`${key}.rail`)}
       </span>
@@ -73,7 +73,7 @@ export default function Hero() {
             {t('eyebrow')}
           </motion.p>
 
-          <div className="min-h-[12.5rem] sm:min-h-[15rem] lg:min-h-[17rem]">
+          <div className="min-h-[10.5rem] sm:min-h-[14rem] lg:min-h-[17rem]">
             <AnimatePresence mode="wait">
               <motion.div
                 key={key}
@@ -85,7 +85,7 @@ export default function Hero() {
                 <span className="font-body text-xs font-semibold uppercase tracking-widest2 text-muted/70">
                   {t('indexLabel')} · {pad(index)}
                 </span>
-                <h1 className="mt-3 font-display text-5xl font-black uppercase leading-[0.92] tracking-tight text-ivory sm:text-6xl lg:text-7xl xl:text-8xl">
+                <h1 className="mt-3 break-words font-display text-[2rem] font-black uppercase leading-[0.98] tracking-tight text-ivory sm:text-5xl sm:leading-[0.92] md:text-6xl lg:text-7xl xl:text-8xl">
                   {tc(`${key}.headline`)}
                 </h1>
                 <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ivory/[0.87] sm:text-lg">
