@@ -9,17 +9,12 @@ import {
   useReducedMotion,
 } from 'framer-motion';
 import { ArrowLeft, ArrowRight, Plus } from 'lucide-react';
-import { WhatsAppIcon } from './Icons';
 import FrameCorners from './FrameCorners';
 import MagneticButton from './MagneticButton';
 import Tilt from './Tilt';
 import { Link } from '@/i18n/navigation';
 import { frameFront, DOSSIER_EASE } from './motion';
-import {
-  CATEGORY_KEYS,
-  CATEGORY_IMAGES,
-  whatsappLink,
-} from '@/lib/site';
+import { CATEGORY_KEYS, CATEGORY_IMAGES } from '@/lib/site';
 
 const AUTOPLAY_MS = 5000;
 
@@ -60,20 +55,20 @@ export default function Hero() {
         {tc(`${key}.rail`)}
       </span>
 
-      <div className="relative z-10 mx-auto grid w-full max-w-[1600px] items-center gap-10 px-6 pb-16 pt-[calc(var(--nav-height)+2.5rem)] sm:px-10 lg:grid-cols-[1fr_1.04fr] lg:gap-16 lg:px-20 lg:pb-10 lg:pt-[var(--nav-height)]">
+      <div className="relative z-10 mx-auto grid w-full max-w-[1600px] items-center gap-6 px-6 pb-8 pt-[calc(var(--nav-height)+1rem)] sm:gap-10 sm:px-10 sm:pb-16 lg:grid-cols-[1fr_1.04fr] lg:gap-16 lg:px-20 lg:pb-10 lg:pt-[var(--nav-height)]">
         {/* LEFT — text */}
         <div>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: DOSSIER_EASE }}
-            className="mb-7 flex items-center gap-3 font-body text-[11px] font-semibold uppercase tracking-widest2 text-brass"
+            className="mb-7 hidden items-center gap-3 font-body text-[11px] font-semibold uppercase tracking-widest2 text-brass sm:flex"
           >
             <span className="h-px w-8 bg-brass" />
             {t('eyebrow')}
           </motion.p>
 
-          <div className="min-h-[10.5rem] sm:min-h-[14rem] lg:min-h-[17rem]">
+          <div className="min-h-[7rem] sm:min-h-[14rem] lg:min-h-[17rem]">
             <AnimatePresence mode="wait">
               <motion.div
                 key={key}
@@ -88,19 +83,19 @@ export default function Hero() {
                 <h1 className="mt-3 break-words font-display text-[2rem] font-black uppercase leading-[0.98] tracking-tight text-ivory sm:text-5xl sm:leading-[0.92] md:text-6xl lg:text-7xl xl:text-8xl">
                   {tc(`${key}.headline`)}
                 </h1>
-                <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ivory/[0.87] sm:text-lg">
+                <p className="mt-5 hidden max-w-lg font-body text-base leading-relaxed text-ivory/[0.87] sm:block sm:text-lg">
                   {tc(`${key}.tagline`)}
                 </p>
               </motion.div>
             </AnimatePresence>
           </div>
 
-          {/* CTAs */}
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+          {/* CTA */}
+          <div className="mt-6 sm:mt-8">
             <MagneticButton>
               <Link
                 href={{ pathname: '/projeler/[category]', params: { category: key } }}
-                className="cta-sheen group flex items-center gap-2.5 bg-brass py-3 pl-3 pr-6 font-body text-sm font-semibold text-graphite transition-colors hover:bg-brass-light"
+                className="cta-sheen group inline-flex items-center gap-2.5 bg-brass py-3 pl-3 pr-6 font-body text-sm font-semibold text-graphite transition-colors hover:bg-brass-light"
               >
                 <span className="flex h-7 w-7 items-center justify-center bg-graphite/15">
                   <Plus className="h-4 w-4" />
@@ -108,19 +103,10 @@ export default function Hero() {
                 {t('exploreCta')}
               </Link>
             </MagneticButton>
-            <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 font-body text-sm font-semibold text-ivory frame-outline-strong transition-colors hover:border-brass hover:text-brass"
-            >
-              <WhatsAppIcon className="h-4 w-4" />
-              {t('whatsappCta')}
-            </a>
           </div>
 
           {/* Controls */}
-          <div className="mt-10 flex items-center gap-5">
+          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3 sm:mt-10">
             <span className="font-display text-sm font-bold tracking-widest">
               <span className="text-brass">{pad(index)}</span>
               <span className="mx-1 text-muted/50">/</span>
@@ -179,7 +165,7 @@ export default function Hero() {
 
           <Tilt
             max={6}
-            className="group relative aspect-[4/3] overflow-hidden bg-surface frame-outline sm:aspect-[4/5]"
+            className="group relative aspect-[16/10] overflow-hidden bg-surface frame-outline sm:aspect-[4/5]"
           >
             <AnimatePresence mode="sync">
               <motion.div

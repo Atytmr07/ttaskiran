@@ -17,7 +17,7 @@
   },
   "Whatsapp": {
     "title": "TT Design",
-    "subtitle": "We usually reply within minutes",
+    "subtitle": "Message us about your project",
     "greeting": "Hi! 👋\nHow can we help with your project?",
     "placeholder": "Type your message…",
     "send": "Send on WhatsApp",
@@ -107,7 +107,7 @@
     "nextImage": "Next image",
     "ctaEyebrow": "FOR YOUR PROJECT",
     "ctaTitle": "Have a project in this category?",
-    "ctaBody": "Reach out for a site visit and a quote — we usually reply the same day.",
+    "ctaBody": "Reach out for a site visit and a quote.",
     "ctaButton": "Get a Quote",
     "whatsapp": "Message on WhatsApp"
   },
@@ -232,7 +232,7 @@
     "watermark": "CONTACT",
     "eyebrow": "CONTACT",
     "title": "Let's talk about your project",
-    "intro": "Reach out for a site visit or a quote. We usually reply the same day.",
+    "intro": "Reach out for a site visit or a quote.",
     "phoneLabel": "Phone",
     "phone": "+90 530 384 44 82",
     "addressLabel": "Address",
@@ -253,7 +253,7 @@
     "watermark": "CONTACT",
     "eyebrow": "CONTACT",
     "title": "Let's plan your project together",
-    "intro": "Fill in the form for a site visit, a quote or any questions and we'll reply the same day. You can also reach us directly by phone, WhatsApp or email.",
+    "intro": "Fill in the form for a site visit, a quote or any questions. You can also reach us directly by phone, WhatsApp or email.",
     "formTitle": "Quote / Site-Visit Request",
     "fields": {
       "name": "Full Name",

@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --nav-height: 128px;
+  --nav-height: 76px;
+}
+@media (min-width: 1024px) {
+  :root {
+    --nav-height: 128px;
+  }
 }
 
 html {

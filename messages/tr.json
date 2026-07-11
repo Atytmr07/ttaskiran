@@ -17,7 +17,7 @@
   },
   "Whatsapp": {
     "title": "TT Design",
-    "subtitle": "Genellikle birkaç dakika içinde yanıt veriyoruz",
+    "subtitle": "Projeniz için bize yazın",
     "greeting": "Merhaba! 👋\nProjeniz hakkında size nasıl yardımcı olabiliriz?",
     "placeholder": "Mesajınızı yazın…",
     "send": "WhatsApp'ta Gönder",
@@ -107,7 +107,7 @@
     "nextImage": "Sonraki görsel",
     "ctaEyebrow": "PROJENİZ İÇİN",
     "ctaTitle": "Bu kategoride bir projeniz mi var?",
-    "ctaBody": "Keşif randevusu ve teklif için bize ulaşın — genellikle aynı gün dönüş yapıyoruz.",
+    "ctaBody": "Keşif randevusu ve teklif için bize ulaşın.",
     "ctaButton": "Teklif Alın",
     "whatsapp": "WhatsApp'tan Yazın"
   },
@@ -232,7 +232,7 @@
     "watermark": "İLETİŞİM",
     "eyebrow": "İLETİŞİM",
     "title": "Projenizi konuşalım",
-    "intro": "Bir keşif randevusu ya da teklif için bize ulaşın. Genellikle aynı gün dönüş yapıyoruz.",
+    "intro": "Keşif randevusu ya da teklif için bize ulaşın.",
     "phoneLabel": "Telefon",
     "phone": "+90 530 384 44 82",
     "addressLabel": "Adres",
@@ -253,7 +253,7 @@
     "watermark": "İLETİŞİM",
     "eyebrow": "İLETİŞİM",
     "title": "Projenizi birlikte planlayalım",
-    "intro": "Keşif randevusu, teklif ya da sorularınız için formu doldurun; size aynı gün dönelim. Dilerseniz doğrudan telefon, WhatsApp ya da e-posta ile de ulaşabilirsiniz.",
+    "intro": "Keşif randevusu, teklif ya da sorularınız için formu doldurun. Dilerseniz doğrudan telefon, WhatsApp ya da e-posta ile de ulaşabilirsiniz.",
     "formTitle": "Teklif / Keşif Talebi",
     "fields": {
       "name": "Ad Soyad",

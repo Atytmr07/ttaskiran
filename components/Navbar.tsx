@@ -6,10 +6,8 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import LocaleSwitcher from './LocaleSwitcher';
-import MagneticButton from './MagneticButton';
 import Logo from './Logo';
-import { WhatsAppIcon } from './Icons';
-import { whatsappLink, CATEGORY_KEYS } from '@/lib/site';
+import { CATEGORY_KEYS } from '@/lib/site';
 
 // Animated left-to-right underline shared by the desktop nav links
 const UNDERLINE =
@@ -63,7 +61,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-full max-w-[1600px] items-center justify-between px-6 sm:px-10 lg:px-16">
         {/* Wordmark */}
         <Link href="/" aria-label="TT Design" className="flex items-center">
-          <Logo priority className="h-[4.5rem] w-auto lg:h-[6rem]" />
+          <Logo priority className="h-14 w-auto lg:h-[6rem]" />
         </Link>
 
         {/* Desktop links */}
@@ -124,18 +122,6 @@ export default function Navbar() {
           </Link>
 
           <LocaleSwitcher label={t('langLabel')} />
-
-          <MagneticButton>
-            <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-sheen flex items-center gap-2 bg-brass px-4 py-2.5 font-body text-sm font-semibold text-graphite transition-colors hover:bg-brass-light"
-            >
-              <WhatsAppIcon className="h-4 w-4" />
-              {t('whatsapp')}
-            </a>
-          </MagneticButton>
         </div>
 
         {/* Mobile trigger */}
@@ -214,18 +200,8 @@ export default function Navbar() {
               </motion.div>
             </motion.div>
 
-            <div className="flex items-center justify-between gap-4 px-8 pb-10">
+            <div className="flex items-center px-8 pb-10">
               <LocaleSwitcher label={t('langLabel')} className="text-base" />
-              <a
-                href={whatsappLink()}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setOpen(false)}
-                className="flex items-center gap-2 bg-brass px-5 py-3 font-body text-sm font-semibold text-graphite"
-              >
-                <WhatsAppIcon className="h-4 w-4" />
-                {t('whatsapp')}
-              </a>
             </div>
           </motion.div>
         )}
