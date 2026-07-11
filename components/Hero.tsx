@@ -45,17 +45,147 @@ export default function Hero() {
   return (
     <header
       id="anasayfa"
-      className="relative flex min-h-[100svh] items-center overflow-hidden bg-graphite"
+      className="relative overflow-hidden bg-graphite"
     >
       {/* faint section watermark */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute right-0 top-28 max-w-full select-none whitespace-nowrap font-display text-[5.5rem] font-black uppercase leading-none tracking-tighter text-ivory/[0.04] sm:-right-6 sm:text-[12rem] lg:text-[20rem]"
+        className="pointer-events-none absolute -right-6 top-28 hidden max-w-full select-none whitespace-nowrap font-display font-black uppercase leading-none tracking-tighter text-ivory/[0.04] lg:block lg:text-[20rem]"
       >
         {tc(`${key}.rail`)}
       </span>
 
-      <div className="relative z-10 mx-auto grid w-full max-w-[1600px] items-center gap-6 px-6 pb-8 pt-[calc(var(--nav-height)+1rem)] sm:gap-10 sm:px-10 sm:pb-16 lg:grid-cols-[1fr_1.04fr] lg:gap-16 lg:px-20 lg:pb-10 lg:pt-[var(--nav-height)]">
+      {/* ============================================================
+          MOBILE / TABLET — immersive image-led hero (below lg).
+          The framed image grows to fill the viewport; the headline is
+          overlaid on it so nothing gets clipped on short phones.
+      ============================================================ */}
+      <div className="relative z-10 flex min-h-[100svh] w-full flex-col px-5 pb-7 pt-[calc(var(--nav-height)+0.75rem)] lg:hidden">
+        <motion.p
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: DOSSIER_EASE }}
+          className="mb-3 flex items-center gap-2.5 font-body text-[10px] font-semibold uppercase tracking-widest2 text-brass"
+        >
+          <span className="h-px w-6 bg-brass" />
+          {t('eyebrow')}
+        </motion.p>
+
+        {/* framed image fills the remaining height */}
+        <div className="relative min-h-0 flex-1 overflow-hidden bg-surface frame-outline">
+          <AnimatePresence mode="sync">
+            <motion.div
+              key={key}
+              initial={{ opacity: 0, scale: reduce ? 1 : 1.06 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: reduce ? 0.3 : 0.8, ease: DOSSIER_EASE }}
+              className="absolute inset-0"
+            >
+              <Image
+                src={CATEGORY_IMAGES[key]}
+                alt={tc(`${key}.name`)}
+                fill
+                priority={index === 0}
+                sizes="100vw"
+                className="object-cover"
+              />
+            </motion.div>
+          </AnimatePresence>
+
+          {/* legibility gradient for the overlaid text */}
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-graphite via-graphite/55 to-graphite/10" />
+          <FrameCorners size="h-3.5 w-3.5" />
+
+          {/* rotated category rail */}
+          <span className="vertical-rl absolute left-3 top-4 rotate-180 font-body text-[10px] font-semibold uppercase tracking-widest2 text-ivory/80">
+            {tc(`${key}.rail`)}
+          </span>
+
+          {/* overlaid headline block */}
+          <div className="absolute inset-x-0 bottom-0 p-5">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={key}
+                initial={{ opacity: 0, y: reduce ? 0 : 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: reduce ? 0 : -12 }}
+                transition={{ duration: 0.45, ease: DOSSIER_EASE }}
+              >
+                <span className="font-body text-[11px] font-semibold uppercase tracking-widest2 text-brass">
+                  {t('indexLabel')} · {pad(index)}
+                </span>
+                <h1 className="mt-2 break-words font-display text-[1.9rem] font-black uppercase leading-[0.97] tracking-tight text-ivory">
+                  {tc(`${key}.headline`)}
+                </h1>
+                <p className="mt-2.5 line-clamp-2 max-w-md font-body text-[13px] leading-relaxed text-ivory/85">
+                  {tc(`${key}.tagline`)}
+                </p>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+        </div>
+
+        {/* CTA + carousel controls */}
+        <div className="mt-5 flex flex-col gap-4">
+          <Link
+            href={{ pathname: '/projeler/[category]', params: { category: key } }}
+            className="cta-sheen group inline-flex w-full items-center justify-center gap-2.5 bg-brass py-3.5 font-body text-sm font-semibold text-graphite transition-colors hover:bg-brass-light"
+          >
+            <span className="flex h-6 w-6 items-center justify-center bg-graphite/15">
+              <Plus className="h-4 w-4" />
+            </span>
+            {t('exploreCta')}
+          </Link>
+
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className="font-display text-sm font-bold tracking-widest">
+                <span className="text-brass">{pad(index)}</span>
+                <span className="mx-1 text-muted/50">/</span>
+                <span className="text-muted/70">{pad(count - 1)}</span>
+              </span>
+              <div className="flex items-center gap-1.5">
+                {CATEGORY_KEYS.map((catKey, i) => (
+                  <button
+                    key={catKey}
+                    type="button"
+                    onClick={() => setIndex(i)}
+                    aria-label={tc(`${catKey}.name`)}
+                    aria-current={i === index ? 'true' : undefined}
+                    className={`h-1.5 rounded-full transition-all duration-300 ${
+                      i === index ? 'w-5 bg-brass' : 'w-1.5 bg-muted/40'
+                    }`}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => go(-1)}
+                aria-label={t('prev')}
+                className="flex h-10 w-10 items-center justify-center text-ivory frame-outline-strong transition-colors hover:border-brass hover:text-brass"
+              >
+                <ArrowLeft className="h-4 w-4" />
+              </button>
+              <button
+                type="button"
+                onClick={() => go(1)}
+                aria-label={t('next')}
+                className="flex h-10 w-10 items-center justify-center text-ivory frame-outline-strong transition-colors hover:border-brass hover:text-brass"
+              >
+                <ArrowRight className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ============================================================
+          DESKTOP — split layout: text left, framed image right (lg+)
+      ============================================================ */}
+      <div className="relative z-10 mx-auto hidden min-h-[100svh] w-full max-w-[1600px] items-center gap-16 px-20 pb-10 pt-[var(--nav-height)] lg:grid lg:grid-cols-[1fr_1.04fr]">
         {/* LEFT — text */}
         <div>
           <motion.p
