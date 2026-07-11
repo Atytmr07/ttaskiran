@@ -41,7 +41,7 @@
       "rail": "OTEL",
       "name": "Otel Renovasyonu",
       "headline": "OTEL RENOVASYONU",
-      "tagline": "Odadan lobiye, mutfaktan kulise — misafir deneyimini yükselten 5 yıldızlı yenileme.",
+      "tagline": "Odadan lobiye, mutfaktan arka ofise — komple 5 yıldızlı otel renovasyonu.",
       "description": "Oda ve süit yenileme, lobi ve resepsiyon, yeme-içme alanları ve arka ofis (BOH) dahil; otel işletmeniz kapalı kalmadan, faz faz planlanan komple renovasyon."
     },
     "villa": {
@@ -49,7 +49,7 @@
       "rail": "VİLLA",
       "name": "Villa Renovasyonu",
       "headline": "VİLLA RENOVASYONU",
-      "tagline": "Mahremiyet, ışık ve malzeme — yaşam alanınızı bir esere dönüştüren zanaatkârlık.",
+      "tagline": "Doğal taş, ahşap ve özel mobilyayla anahtar teslim villa iç mekanı.",
       "description": "Özel villa ve yazlıklarda anahtar teslim iç mekan tadilatı; doğal taş, ahşap ve özel üretim mobilyayla kişiye özel mekânlar."
     },
     "business": {
@@ -57,7 +57,7 @@
       "rail": "İŞ MERKEZİ",
       "name": "İş Merkezi Renovasyonu",
       "headline": "İŞ MERKEZİ RENOVASYONU",
-      "tagline": "Kurumsal kimliği mekâna işleyen, verimli ve prestijli çalışma alanları.",
+      "tagline": "Marka kimliğine uygun, verimli ve prestijli çalışma alanları.",
       "description": "Ofis, plaza ve iş merkezlerinde marka kimliğine uygun, akustik ve aydınlatması optimize edilmiş, fonksiyonel renovasyon."
     },
     "residence": {
@@ -65,14 +65,14 @@
       "rail": "KONUT",
       "name": "Konut Renovasyonu",
       "headline": "KONUT RENOVASYONU",
-      "tagline": "Daireden çatı katına — günlük yaşamı estetikle buluşturan ince işçilik.",
+      "tagline": "Daireden çatı katına — mutfak, banyo ve yaşam alanı yenileme.",
       "description": "Daire ve rezidanslarda mutfak, banyo ve yaşam alanı yenileme; bütçenize ve takviminize sadık, temiz işçilik."
     }
   },
   "TrustMetrics": {
     "watermark": "GÜVEN",
     "eyebrow": "YILLAR İÇİNDE GÜVEN",
-    "title": "Rakamlarla bir zanaat geçmişi",
+    "title": "Rakamlarla güven",
     "yearsLabel": "YILDIR SEKTÖRDE",
     "yearsValue": 12,
     "stats": [
@@ -85,7 +85,7 @@
     "watermark": "HİZMET",
     "eyebrow": "HİZMETLERİMİZ",
     "title": "Dört uzmanlık, tek standart",
-    "intro": "Her kategori kendi disiplinini ister; biz dördünde de aynı zanaatkârlık standardını uygularız.",
+    "intro": "Her kategori kendi disiplinini ister; dördünde de aynı standardı uygularız.",
     "explore": "İncele",
     "prev": "Önceki",
     "next": "Sonraki"
@@ -171,7 +171,7 @@
       {
         "no": "04",
         "title": "Teslim & Memnuniyet",
-        "body": "Detaylı kontrol listesi, eksiksiz teslim ve teslim sonrası destek — sözümüz, son vidaya kadar geçerlidir."
+        "body": "Detaylı kontrol listesi, eksiksiz teslim ve teslim sonrası destek."
       }
     ]
   },
@@ -192,7 +192,7 @@
     "watermark": "FELSEFE",
     "eyebrow": "HAKKIMIZDA",
     "quote": "Her Detayda Sanat,\nHer Çizgide TT Design.",
-    "body": "T Taşkıran olarak renovasyonu bir inşaat işi değil, bir zanaat olarak görüyoruz. İş ortaklarımızla şeffaf bir bütçe, net bir takvim ve dürüst bir iletişim üzerine çalışırız. Projelerimizi zamanında teslim eder, son detayına kadar sahipleniriz; çünkü güven, en az işçilik kadar inşa edilir.",
+    "body": "T Taşkıran olarak renovasyonu bir inşaat işi değil, bir zanaat olarak görüyoruz. İş ortaklarımızla şeffaf bir bütçe, net bir takvim ve dürüst bir iletişim üzerine çalışırız. Projelerimizi zamanında teslim eder, son detayına kadar sahipleniriz.",
     "signature": "TT Design Ekibi"
   },
   "Clients": {

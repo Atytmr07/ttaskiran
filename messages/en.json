@@ -41,7 +41,7 @@
       "rail": "HOTEL",
       "name": "Hotel Renovation",
       "headline": "HOTEL RENOVATION",
-      "tagline": "From rooms to lobby, kitchen to back-of-house — a 5-star refit that elevates the guest experience.",
+      "tagline": "From rooms to lobby, kitchen to back-of-house — complete 5-star hotel renovation.",
       "description": "Room and suite refurbishment, lobby and reception, F&B and back-of-house (BOH) — full renovation phased so your hotel keeps operating."
     },
     "villa": {
@@ -49,7 +49,7 @@
       "rail": "VILLA",
       "name": "Villa Renovation",
       "headline": "VILLA RENOVATION",
-      "tagline": "Privacy, light and material — craftsmanship that turns a home into a work of art.",
+      "tagline": "Turnkey villa interiors in natural stone, timber and custom furniture.",
       "description": "Turnkey interior fit-out for private villas and summer homes; bespoke spaces in natural stone, timber and custom-made furniture."
     },
     "business": {
@@ -57,7 +57,7 @@
       "rail": "BUSINESS CENTER",
       "name": "Business Center Renovation",
       "headline": "BUSINESS CENTER RENOVATION",
-      "tagline": "Efficient, prestigious workspaces that build your corporate identity into the space itself.",
+      "tagline": "On-brand, efficient and prestigious workspaces.",
       "description": "Functional renovation for offices, plazas and business centers — on-brand, with optimized acoustics and lighting."
     },
     "residence": {
@@ -65,14 +65,14 @@
       "rail": "RESIDENCE",
       "name": "Residential Renovation",
       "headline": "RESIDENTIAL RENOVATION",
-      "tagline": "From apartment to penthouse — fine workmanship where daily life meets aesthetics.",
+      "tagline": "From apartment to penthouse — kitchen, bathroom and living-space renewal.",
       "description": "Kitchen, bathroom and living-space renewal for apartments and residences; clean workmanship true to your budget and timeline."
     }
   },
   "TrustMetrics": {
     "watermark": "TRUST",
     "eyebrow": "TRUST, BUILT OVER YEARS",
-    "title": "A craft record, in numbers",
+    "title": "Trust, in numbers",
     "yearsLabel": "YEARS IN THE INDUSTRY",
     "yearsValue": 12,
     "stats": [
@@ -85,7 +85,7 @@
     "watermark": "SERVICES",
     "eyebrow": "OUR SERVICES",
     "title": "Four disciplines, one standard",
-    "intro": "Each category demands its own discipline; we apply the same craftsmanship standard to all four.",
+    "intro": "Each category demands its own discipline; we apply the same standard to all four.",
     "explore": "Explore",
     "prev": "Previous",
     "next": "Next"
@@ -171,7 +171,7 @@
       {
         "no": "04",
         "title": "Handover & Satisfaction",
-        "body": "Detailed snag list, complete handover and post-delivery support — our word holds to the very last screw."
+        "body": "Detailed snag list, complete handover and post-delivery support."
       }
     ]
   },
@@ -192,7 +192,7 @@
     "watermark": "PHILOSOPHY",
     "eyebrow": "ABOUT US",
     "quote": "Art in Every Detail,\nTT Design in Every Line.",
-    "body": "At T Taşkıran we see renovation not as a construction job but as a craft. We work with our partners on a transparent budget, a clear timeline and honest communication. We deliver our projects on time and own them down to the final detail — because trust is built just as much as workmanship is.",
+    "body": "At T Taşkıran we see renovation not as a construction job but as a craft. We work with our partners on a transparent budget, a clear timeline and honest communication. We deliver our projects on time and own them down to the final detail.",
     "signature": "The TT Design Team"
   },
   "Clients": {
