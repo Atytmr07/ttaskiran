@@ -49,7 +49,7 @@ export default function SectionHeading({
         </span>
       </motion.div>
 
-      <h2 className="mt-5 max-w-4xl font-display text-4xl font-extrabold leading-[1.02] tracking-tight text-ivory sm:text-5xl lg:text-6xl">
+      <h2 className="mt-5 max-w-4xl break-words font-display text-[1.85rem] font-extrabold leading-[1.05] tracking-tight text-ivory sm:text-4xl sm:leading-[1.02] md:text-5xl lg:text-6xl">
         <AnimatedText text={title} />
       </h2>
     </div>

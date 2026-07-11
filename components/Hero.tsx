@@ -73,25 +73,25 @@ export default function Hero() {
 
         {/* framed image fills the remaining height */}
         <div className="relative min-h-0 flex-1 overflow-hidden bg-surface frame-outline">
-          <AnimatePresence mode="sync">
-            <motion.div
-              key={key}
-              initial={{ opacity: 0, scale: reduce ? 1 : 1.06 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: reduce ? 0.3 : 0.8, ease: DOSSIER_EASE }}
-              className="absolute inset-0"
+          {/* Pre-mounted cross-fade layers (see desktop note) */}
+          {CATEGORY_KEYS.map((catKey, i) => (
+            <div
+              key={catKey}
+              aria-hidden={i !== index}
+              className={`absolute inset-0 ${
+                reduce ? '' : 'transition-opacity duration-700 ease-out'
+              } ${i === index ? 'opacity-100' : 'opacity-0'}`}
             >
               <Image
-                src={CATEGORY_IMAGES[key]}
-                alt={tc(`${key}.name`)}
+                src={CATEGORY_IMAGES[catKey]}
+                alt={tc(`${catKey}.name`)}
                 fill
-                priority={index === 0}
+                priority={i === 0}
                 sizes="100vw"
                 className="object-cover"
               />
-            </motion.div>
-          </AnimatePresence>
+            </div>
+          ))}
 
           {/* legibility gradient — bottom-anchored & light so the image stays forward */}
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-graphite via-graphite/40 to-transparent" />
@@ -297,25 +297,26 @@ export default function Hero() {
             max={6}
             className="group relative aspect-[16/10] overflow-hidden bg-surface frame-outline sm:aspect-[4/5]"
           >
-            <AnimatePresence mode="sync">
-              <motion.div
-                key={key}
-                initial={{ opacity: 0, scale: reduce ? 1 : 1.05 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: reduce ? 0.3 : 0.8, ease: DOSSIER_EASE }}
-                className="absolute inset-0"
+            {/* All 4 covers are mounted and cross-fade via opacity so switching
+                is instant — no on-demand fetch lag when the category changes. */}
+            {CATEGORY_KEYS.map((catKey, i) => (
+              <div
+                key={catKey}
+                aria-hidden={i !== index}
+                className={`absolute inset-0 ${
+                  reduce ? '' : 'transition-opacity duration-700 ease-out'
+                } ${i === index ? 'opacity-100' : 'opacity-0'}`}
               >
                 <Image
-                  src={CATEGORY_IMAGES[key]}
-                  alt={tc(`${key}.name`)}
+                  src={CATEGORY_IMAGES[catKey]}
+                  alt={tc(`${catKey}.name`)}
                   fill
-                  priority={index === 0}
+                  priority={i === 0}
                   sizes="(max-width: 1024px) 92vw, 50vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                 />
-              </motion.div>
-            </AnimatePresence>
+              </div>
+            ))}
 
             <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-graphite/85 via-graphite/20 to-transparent" />
             <FrameCorners size="h-4 w-4" />

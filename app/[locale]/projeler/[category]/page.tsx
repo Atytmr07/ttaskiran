@@ -153,10 +153,10 @@ export default async function GalleryPage({
               </span>
             </div>
 
-            <h1 className="mt-5 font-display text-5xl font-black uppercase leading-[0.95] tracking-tight text-ivory sm:text-6xl lg:text-7xl">
+            <h1 className="mt-5 break-words font-display text-[1.9rem] font-black uppercase leading-[1.0] tracking-tight text-ivory sm:text-5xl sm:leading-[0.95] md:text-6xl lg:text-7xl">
               <AnimatedText text={name} />
             </h1>
-            <p className="mt-5 max-w-2xl font-body text-base leading-relaxed text-ivory/[0.87] sm:text-lg">
+            <p className="mt-5 max-w-2xl font-body text-[15px] leading-relaxed text-ivory/[0.87] sm:text-lg">
               {tc(`${category}.description`)}
             </p>
 

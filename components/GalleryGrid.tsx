@@ -135,7 +135,7 @@ export default function GalleryGrid({
                   width={images[open].w}
                   height={images[open].h}
                   sizes="90vw"
-                  className="max-h-[82vh] w-auto frame-outline"
+                  className="max-h-[82vh] w-auto max-w-[92vw] frame-outline"
                   priority
                 />
                 <span className="absolute -bottom-8 left-0 font-display text-sm font-bold tracking-widest text-white/80">

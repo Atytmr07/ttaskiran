@@ -137,7 +137,7 @@ export default function PhoneField({
       </div>
 
       {open && (
-        <div className="absolute left-0 top-full z-30 mt-1 max-h-72 w-72 overflow-auto bg-graphite frame-outline shadow-xl">
+        <div className="absolute left-0 top-full z-30 mt-1 max-h-72 w-72 max-w-[calc(100vw-2.5rem)] overflow-auto bg-graphite frame-outline shadow-xl">
           <div className="sticky top-0 z-10 flex items-center gap-2 border-b border-frame bg-graphite px-3 py-2">
             <Search className="h-4 w-4 text-muted/60" />
             <input

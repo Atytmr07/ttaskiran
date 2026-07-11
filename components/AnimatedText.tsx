@@ -30,7 +30,7 @@ export default function AnimatedText({
       {words.map((word, i) => (
         <motion.span
           key={`${word}-${i}`}
-          className="inline-block will-change-transform"
+          className="inline-block break-words will-change-transform"
           style={{ marginRight: i < words.length - 1 ? '0.26em' : undefined }}
           initial={{ opacity: 0, y: '0.4em', filter: 'blur(6px)' }}
           whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}

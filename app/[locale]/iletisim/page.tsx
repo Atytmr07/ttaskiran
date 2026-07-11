@@ -125,7 +125,7 @@ export default async function ContactPageRoute({
                 {t('eyebrow')}
               </span>
             </div>
-            <h1 className="mt-5 max-w-4xl font-display text-4xl font-black uppercase leading-[0.98] tracking-tight text-ivory sm:text-6xl lg:text-7xl">
+            <h1 className="mt-5 max-w-4xl break-words font-display text-[2rem] font-black uppercase leading-[1.0] tracking-tight text-ivory sm:text-5xl sm:leading-[0.98] md:text-6xl lg:text-7xl">
               <AnimatedText text={t('title')} />
             </h1>
             <p className="mt-6 max-w-2xl font-body text-base leading-relaxed text-ivory/[0.87] sm:text-lg">
