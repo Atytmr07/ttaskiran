@@ -85,19 +85,19 @@ export async function generateMetadata({
       url: `${SITE_URL}/${locale}`,
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       images: [
-        { url: '/logo.jpg', width: 629, height: 271, alt: t('ogAlt') },
+        { url: '/logo.png', width: 1094, height: 376, alt: t('ogAlt') },
       ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['/logo.jpg'],
+      images: ['/logo.png'],
     },
     icons: {
-      icon: [{ url: '/logo.jpg', type: 'image/jpeg' }],
-      shortcut: '/logo.jpg',
-      apple: [{ url: '/logo.jpg', type: 'image/jpeg' }],
+      icon: [{ url: '/logo.png', type: 'image/png' }],
+      shortcut: '/logo.png',
+      apple: [{ url: '/logo.png', type: 'image/png' }],
     },
     robots: { index: true, follow: true },
   };
