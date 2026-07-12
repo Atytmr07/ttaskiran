@@ -85,14 +85,14 @@ export async function generateMetadata({
       url: `${SITE_URL}/${locale}`,
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       images: [
-        { url: '/logo.png', width: 1094, height: 376, alt: t('ogAlt') },
+        { url: '/og.png', width: 1200, height: 630, alt: t('ogAlt') },
       ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['/logo.png'],
+      images: ['/og.png'],
     },
     icons: {
       icon: [{ url: '/logo.png', type: 'image/png' }],

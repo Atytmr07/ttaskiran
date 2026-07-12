@@ -54,7 +54,7 @@ export default async function HomePage({
     url: `${SITE_URL}/${locale}`,
     telephone: PHONE_DISPLAY,
     email: EMAIL,
-    image: `${SITE_URL}/logo.png`,
+    image: `${SITE_URL}/og.png`,
     logo: `${SITE_URL}/logo.png`,
     priceRange: '₺₺₺',
     address: {
