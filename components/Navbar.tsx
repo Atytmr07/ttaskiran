@@ -61,7 +61,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-full max-w-[1600px] items-center justify-between px-6 pt-3 sm:px-10 lg:px-16 lg:pt-5">
         {/* Wordmark */}
         <Link href="/" aria-label="TT Design" className="flex items-center">
-          <Logo priority className="h-14 w-auto lg:h-[6rem]" />
+          <Logo priority className="h-12 w-auto lg:h-[5.25rem]" />
         </Link>
 
         {/* Desktop links */}
@@ -149,7 +149,7 @@ export default function Navbar() {
               className="flex items-center justify-between px-6"
               style={{ height: 'var(--nav-height)' }}
             >
-              <Logo className="h-[4.5rem] w-auto" />
+              <Logo className="h-16 w-auto" />
               <button
                 type="button"
                 onClick={() => setOpen(false)}
