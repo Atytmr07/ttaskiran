@@ -12,8 +12,20 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [375, 640, 768, 1024, 1280, 1536, 1920],
+    // WebP only. AVIF encodes a SECOND variant of every width (one
+    // transformation per format), roughly doubling Vercel image usage for a
+    // ~20% file-size win that photography barely shows.
+    formats: ['image/webp'],
+    // Four widths, trimmed from seven, chosen to cover what the `sizes` props
+    // in this codebase actually request: low-DPR mobile, 2x mobile, 3x mobile
+    // / tablet, and large desktop (hero at 50vw and the 90vw lightbox both
+    // need 1920 on a 1080p+ monitor, so that stays).
+    deviceSizes: [640, 828, 1280, 1920],
+    imageSizes: [128, 256, 384],
+    // Project photography is static and content-addressed by deploy, so keep
+    // transformed variants cached far longer than the 60s default — repeat
+    // views then cost nothing instead of re-transforming.
+    minimumCacheTTL: 2678400, // 31 days
   },
 };
 
