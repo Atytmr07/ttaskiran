@@ -3,37 +3,37 @@
     "slug": "st-regis",
     "name": "St. Regis — Süit",
     "category": "hotel",
-    "cover": "/projects/st-regis/01.png",
+    "cover": "/projects/st-regis/01.jpg",
     "images": [
       {
-        "src": "/projects/st-regis/01.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/st-regis/01.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/st-regis/02.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/st-regis/02.jpg",
+        "w": 1920,
+        "h": 1217
       },
       {
-        "src": "/projects/st-regis/03.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/st-regis/03.jpg",
+        "w": 1920,
+        "h": 1217
       },
       {
-        "src": "/projects/st-regis/04.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/st-regis/04.jpg",
+        "w": 1920,
+        "h": 1217
       },
       {
-        "src": "/projects/st-regis/05.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/st-regis/05.jpg",
+        "w": 1920,
+        "h": 1217
       },
       {
-        "src": "/projects/st-regis/06.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/st-regis/06.jpg",
+        "w": 1920,
+        "h": 1219
       }
     ]
   },
@@ -41,147 +41,147 @@
     "slug": "nautilus-220",
     "name": "Nautilus 220 — Wellness & Spa",
     "category": "hotel",
-    "cover": "/projects/nautilus-220/01.png",
+    "cover": "/projects/nautilus-220/01.jpg",
     "images": [
       {
-        "src": "/projects/nautilus-220/01.png",
-        "w": 2560,
-        "h": 1707
+        "src": "/projects/nautilus-220/01.jpg",
+        "w": 1920,
+        "h": 1280
       },
       {
-        "src": "/projects/nautilus-220/02.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/nautilus-220/02.jpg",
+        "w": 1920,
+        "h": 1217
       },
       {
-        "src": "/projects/nautilus-220/03.png",
-        "w": 2560,
+        "src": "/projects/nautilus-220/03.jpg",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "/projects/nautilus-220/04.jpg",
+        "w": 1920,
+        "h": 1218
+      },
+      {
+        "src": "/projects/nautilus-220/05.jpg",
+        "w": 1920,
         "h": 1440
       },
       {
-        "src": "/projects/nautilus-220/04.png",
-        "w": 2080,
-        "h": 1320
+        "src": "/projects/nautilus-220/06.jpg",
+        "w": 1920,
+        "h": 1080
       },
       {
-        "src": "/projects/nautilus-220/05.png",
-        "w": 2560,
-        "h": 1920
+        "src": "/projects/nautilus-220/07.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/nautilus-220/06.png",
-        "w": 2560,
+        "src": "/projects/nautilus-220/08.jpg",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "/projects/nautilus-220/09.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/10.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/11.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/12.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/13.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/14.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/15.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/16.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/17.jpg",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "/projects/nautilus-220/18.jpg",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "/projects/nautilus-220/19.jpg",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "/projects/nautilus-220/20.jpg",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "/projects/nautilus-220/21.jpg",
+        "w": 1920,
+        "h": 1280
+      },
+      {
+        "src": "/projects/nautilus-220/22.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/23.jpg",
+        "w": 1920,
+        "h": 1219
+      },
+      {
+        "src": "/projects/nautilus-220/24.jpg",
+        "w": 1920,
         "h": 1440
       },
       {
-        "src": "/projects/nautilus-220/07.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/nautilus-220/25.jpg",
+        "w": 1920,
+        "h": 1080
       },
       {
-        "src": "/projects/nautilus-220/08.png",
-        "w": 2560,
-        "h": 1707
+        "src": "/projects/nautilus-220/26.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/nautilus-220/09.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/nautilus-220/27.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/nautilus-220/10.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/11.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/12.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/13.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/14.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/15.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/16.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/17.png",
-        "w": 2560,
-        "h": 1707
-      },
-      {
-        "src": "/projects/nautilus-220/18.png",
-        "w": 2560,
-        "h": 1707
-      },
-      {
-        "src": "/projects/nautilus-220/19.png",
-        "w": 2560,
-        "h": 1707
-      },
-      {
-        "src": "/projects/nautilus-220/20.png",
-        "w": 2560,
-        "h": 1707
-      },
-      {
-        "src": "/projects/nautilus-220/21.png",
-        "w": 2560,
-        "h": 1707
-      },
-      {
-        "src": "/projects/nautilus-220/22.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/23.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/24.png",
-        "w": 2560,
-        "h": 1920
-      },
-      {
-        "src": "/projects/nautilus-220/25.png",
-        "w": 2560,
-        "h": 1440
-      },
-      {
-        "src": "/projects/nautilus-220/26.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/27.png",
-        "w": 2560,
-        "h": 1625
-      },
-      {
-        "src": "/projects/nautilus-220/28.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/nautilus-220/28.jpg",
+        "w": 1920,
+        "h": 1219
       }
     ]
   },
@@ -189,67 +189,67 @@
     "slug": "letven-ofis",
     "name": "Letven Ofis",
     "category": "business",
-    "cover": "/projects/letven-ofis/01.png",
+    "cover": "/projects/letven-ofis/01.jpg",
     "images": [
       {
-        "src": "/projects/letven-ofis/01.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/01.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/02.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/02.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/03.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/letven-ofis/03.jpg",
+        "w": 1920,
+        "h": 1217
       },
       {
-        "src": "/projects/letven-ofis/04.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/04.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/05.png",
-        "w": 2560,
-        "h": 1705
+        "src": "/projects/letven-ofis/05.jpg",
+        "w": 1920,
+        "h": 1279
       },
       {
-        "src": "/projects/letven-ofis/06.png",
-        "w": 2560,
-        "h": 1707
+        "src": "/projects/letven-ofis/06.jpg",
+        "w": 1920,
+        "h": 1280
       },
       {
-        "src": "/projects/letven-ofis/07.png",
-        "w": 2560,
-        "h": 1707
+        "src": "/projects/letven-ofis/07.jpg",
+        "w": 1920,
+        "h": 1280
       },
       {
-        "src": "/projects/letven-ofis/08.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/08.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/09.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/09.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/10.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/10.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/11.png",
-        "w": 2560,
-        "h": 1625
+        "src": "/projects/letven-ofis/11.jpg",
+        "w": 1920,
+        "h": 1219
       },
       {
-        "src": "/projects/letven-ofis/12.png",
-        "w": 2560,
-        "h": 1623
+        "src": "/projects/letven-ofis/12.jpg",
+        "w": 1920,
+        "h": 1217
       }
     ]
   },
@@ -257,25 +257,25 @@
     "slug": "sama-al-manar",
     "name": "Sama Al Manar",
     "category": "business",
-    "cover": "/projects/sama-al-manar/01.png",
+    "cover": "/projects/sama-al-manar/01.jpg",
     "images": [
       {
-        "src": "/projects/sama-al-manar/01.png",
-        "w": 2560,
-        "h": 1440
+        "src": "/projects/sama-al-manar/01.jpg",
+        "w": 1920,
+        "h": 1080
       },
       {
-        "src": "/projects/sama-al-manar/02.png",
+        "src": "/projects/sama-al-manar/02.jpg",
         "w": 1440,
         "h": 810
       },
       {
-        "src": "/projects/sama-al-manar/03.png",
+        "src": "/projects/sama-al-manar/03.jpg",
         "w": 1440,
         "h": 810
       },
       {
-        "src": "/projects/sama-al-manar/04.png",
+        "src": "/projects/sama-al-manar/04.jpg",
         "w": 1440,
         "h": 959
       }
@@ -289,13 +289,13 @@
     "images": [
       {
         "src": "/projects/gebze-senamed/01.jpg",
-        "w": 2048,
-        "h": 1080
+        "w": 1920,
+        "h": 1013
       },
       {
         "src": "/projects/gebze-senamed/02.jpg",
-        "w": 7000,
-        "h": 4320
+        "w": 1920,
+        "h": 1185
       }
     ]
   },
@@ -307,8 +307,8 @@
     "images": [
       {
         "src": "/projects/ariel-medical/01.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/ariel-medical/02.jpg",
@@ -317,38 +317,38 @@
       },
       {
         "src": "/projects/ariel-medical/03.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/ariel-medical/04.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/ariel-medical/05.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/ariel-medical/06.jpg",
-        "w": 2616,
-        "h": 2136
+        "w": 1920,
+        "h": 1568
       },
       {
         "src": "/projects/ariel-medical/07.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/ariel-medical/08.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/ariel-medical/09.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       }
     ]
   },
@@ -360,28 +360,28 @@
     "images": [
       {
         "src": "/projects/horizon/01.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/horizon/02.jpg",
-        "w": 3464,
-        "h": 2160
+        "w": 1920,
+        "h": 1197
       },
       {
         "src": "/projects/horizon/03.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/horizon/04.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       },
       {
         "src": "/projects/horizon/05.jpg",
-        "w": 3840,
-        "h": 2160
+        "w": 1920,
+        "h": 1080
       }
     ]
   },
@@ -389,70 +389,70 @@
     "slug": "konut",
     "name": "Konut Projesi",
     "category": "residence",
-    "cover": "/projects/konut/01.png",
+    "cover": "/projects/konut/01.jpg",
     "images": [
       {
-        "src": "/projects/konut/01.png",
+        "src": "/projects/konut/01.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/02.png",
+        "src": "/projects/konut/02.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/03.png",
+        "src": "/projects/konut/03.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/04.png",
+        "src": "/projects/konut/04.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/05.png",
+        "src": "/projects/konut/05.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/06.png",
+        "src": "/projects/konut/06.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/07.png",
+        "src": "/projects/konut/07.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/08.png",
+        "src": "/projects/konut/08.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/09.png",
+        "src": "/projects/konut/09.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/10.png",
+        "src": "/projects/konut/10.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/11.png",
+        "src": "/projects/konut/11.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/12.png",
+        "src": "/projects/konut/12.jpg",
         "w": 768,
         "h": 1024
       },
       {
-        "src": "/projects/konut/13.png",
+        "src": "/projects/konut/13.jpg",
         "w": 768,
         "h": 1024
       }
